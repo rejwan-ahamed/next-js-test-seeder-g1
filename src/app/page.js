@@ -13,13 +13,16 @@ export default function Home() {
     <>
       <Link href={"/login"}>Login</Link>
       <Link href={"/about"}>About</Link>
+      <Link href={"/productlist"}>product page</Link>
       <Link href={"/about/aboutcollage"}>college</Link>
       <h2>user name is {name}</h2>
       <Test_data user="rahi"></Test_data>
       <h1>testing</h1>
       <button onClick={() => router.push("/about")}>Go to about</button>
       <button onClick={() => test()}>click me</button>
-      <button onClick={()=>router.push("/about/aboutcollage")}>About college</button>
+      <button onClick={() => router.push("/about/aboutcollage")}>
+        About college
+      </button>
     </>
   );
 }
