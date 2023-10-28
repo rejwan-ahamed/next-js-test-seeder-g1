@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
       <Link href={"/"}>Home</Link>
-      <h2>This is a about page by sazid</h2>
+      <h2>This is a about page by rezwan</h2>
     </>
   );
 };
